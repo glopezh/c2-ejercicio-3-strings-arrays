@@ -2,17 +2,32 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analizador de palabras</title>
-      <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-    <script src="js/analiza-palabras.js"></script>
-    <script src="js/scripts.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador de palabras</title>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <script src="js/analiza-palabras.js"></script>
+  <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
-
+  <div class="contenedor-general container-xl">
+    <main class="principal">
+      <form class="formulario">
+        <div>
+        <label for="mensaje">Palabras:</label>
+        <textarea rows="4" cols="50">
+        </textarea>
+        </div>
+        <div>
+          <button class="btn btn-primary" type="submit">Procesar</button><br>
+        </div>
+      </form>
+    </main>
+  </div>
 </body>
 
 </html>

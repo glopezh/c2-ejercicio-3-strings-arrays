@@ -1,0 +1,14 @@
+body {
+  font-family: "Open sans", sans-serif;
+}
+.contenedor-general {
+  background-color: #9ed9e3;
+}
+.formulario{
+  background-color: #59a17e;
+  color: #fff;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
